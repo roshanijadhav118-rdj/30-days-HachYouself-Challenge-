@@ -24,3 +24,24 @@
 - Type conversion
 - Arithmetic operations
 - Output formatting
+
+Day-2
+Concepts Learned
+Variables
+Data Types (int, float, str, bool)
+input()
+Explicit Type Casting
+int()
+float()
+str()
+bool()
+Implicit Type Casting
+Arithmetic Operations with Different Data Types
+String Concatenation vs Integer Addition
+f-Strings
+Choosing the Correct Data Type for Real-World Problems
+
+
+programs-
+1.Loan calculator
+2.shopping bill calculator 
