@@ -1,49 +1,27 @@
 # 30-days-HachYouself-Challenge-
 
 # Day 1 - Type Casting
-
-## Concepts Learned
-- Variables
-- Data Types
-- Type Casting
-- int()
-- float()
-- str()
-- bool()
-- input()
-- f-Strings
-
 ## Programs
 
 1. Student Age Calculator
 2. Rectangle Cost Calculator
 3. Student Percentage Calculator
 
-## Skills Practiced
-- Taking user input
-- Type conversion
-- Arithmetic operations
-- Output formatting
+# Day 1 - Type Casting
+## Programs
 
-Day-2
-Concepts Learned
-Variables
-Data Types (int, float, str, bool)
-input()
-Explicit Type Casting
-int()
-float()
-str()
-bool()
-Implicit Type Casting
-Arithmetic Operations with Different Data Types
-String Concatenation vs Integer Addition
-f-Strings
-Choosing the Correct Data Type for Real-World Problems
+1.Loan calculator<br>
+2.shopping bill calculator 
 
-
+# Day 3 -operators
 programs-
 
-1.Loan calculator
+1.electricity bill<br>
+2.grocery store <br>
+scholarship eligibility
 
-2.shopping bill calculator 
+# Day 3 -operators
+programs-
+
+1.freelancer payment<br>
+2.gym report
