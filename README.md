@@ -18,7 +18,7 @@ programs-
 
 1.electricity bill<br>
 2.grocery store <br>
-scholarship eligibility
+3.scholarship eligibility
 
 # Day 3 -operators
 programs-
