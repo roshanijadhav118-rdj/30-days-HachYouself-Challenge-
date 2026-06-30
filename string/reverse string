@@ -1,0 +1,13 @@
+s="computer"
+rev_string=(s[::-1])
+first_char=(s[0])
+last_char=(s[-1])
+length=len(s)
+
+
+print(f"original string={s}")
+print(f"reverse string={rev_string}")
+print(f"1st character={first_char}")
+print(f"last character={last_char}")
+print(f"length of string s={length}")
+
