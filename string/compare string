@@ -1,0 +1,14 @@
+s1="mobile"
+s2="Phoneok"
+equal=s1.lower()==s2.lower()
+if len(s1)>len(s2) :
+    longer_word=s1
+elif len(s1)>len(s2) :
+     longer_word=s2
+length_diffrence=abs(len(s1)-len(s2))
+
+print(f"string1={s1}")
+print(f"string2={s2}")
+print(f"is both strings are equal ? ={equal}")
+print(f"langer word={longer_word}")
+print(f"length difference={length_diffrence}")
