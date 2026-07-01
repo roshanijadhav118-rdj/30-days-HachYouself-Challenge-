@@ -1,0 +1,17 @@
+inventory=[
+    "sword",
+    "shield",
+    "potion"
+]
+players_loots=[
+    "helmet",
+    "potion",
+    "gold"
+]
+
+inventory.extend(players_loots)
+inventory.pop(4)
+inventory.insert(4,"magic ring")
+
+
+print(inventory)
