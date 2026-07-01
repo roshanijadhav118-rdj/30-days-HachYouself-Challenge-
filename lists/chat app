@@ -1,1 +1,10 @@
+messages=["hii"," where are yuhh","call me","see yuhh"]
 
+messages[2]="call me ASAP"
+
+messages.remove("hii")
+
+messages.append("Reached home")
+
+slicing=messages[-2:]
+print(messages)
