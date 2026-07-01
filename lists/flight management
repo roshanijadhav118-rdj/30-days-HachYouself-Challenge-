@@ -1,0 +1,16 @@
+seats=[
+    "A1",
+    "A2",
+    "A3",
+    "A4",
+    "A5"
+]
+seats.remove("A3")
+seats.insert(0,"A0")
+seats.append("A6")
+seats.append("A7")
+seats.remove("A5")
+seats[2]="A2-priority"
+available=seats[-4:]
+print(seats)
+print(available)
