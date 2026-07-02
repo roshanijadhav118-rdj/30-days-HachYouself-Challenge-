@@ -33,3 +33,10 @@ programs-
 2.password check<br>
 3.reverse string<br>
 4.string informaton
+
+# Day 6- lists
+## Programs
+
+1.chat app<br>
+2.flight management<br>
+3.game inventory
