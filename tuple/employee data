@@ -1,0 +1,14 @@
+employee=(
+    (105,"Roshani","backend developer",),
+          ("python","SQL","github")
+          )
+print(employee[0][1])
+print(employee[1][1])
+print(employee[1][2])
+print(employee[1])
+print(len(employee[1]))
+print(type(employee[1]))
+
+new_slkill=("docker",)
+print(employee[1]+new_slkill)
+
