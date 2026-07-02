@@ -1,0 +1,21 @@
+prompt=[
+    "cyberpunk",
+    "city",
+    "night",
+    "rain"
+]
+prompt_2=[
+    "4K",
+    "ultra realistic"
+]
+prompt[2]="sunset"
+
+prompt.insert(1,"cinematic")
+
+prompt.extend(prompt_2)
+
+# prompt.append("4K")
+
+# prompt.append("ultra realistic")
+
+print(prompt)
