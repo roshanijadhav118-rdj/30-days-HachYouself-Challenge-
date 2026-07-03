@@ -1,0 +1,24 @@
+payload=(
+    "101",
+    "  Alice Johnson  ",
+    "24",                                             #25
+    "python,django,JS",                               #list+html
+    "55000.75",
+    "True"
+)
+print(int(payload[0]))
+payload1=list(payload)
+payload1[1]=payload1[1].strip().upper()
+payload1[2]=int(payload1[2])+1
+
+python_list=payload[3]
+print(python_list)
+print(python_list+",html")
+salary=float(payload1[4])
+increment=(salary*10)/100
+hands_on_salary=salary+increment
+print(hands_on_salary)
+print(len(python_list))
+payload1=bool(payload1[5])
+print(payload1)
+
