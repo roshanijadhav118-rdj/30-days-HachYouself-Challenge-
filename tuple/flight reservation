@@ -1,0 +1,25 @@
+ticket=(
+    "AI203",
+    ("Roshani",20),
+    ("delhi","benguluru"),
+    ("window","economy")
+)
+
+print(ticket[1][0])
+print(ticket[1][1])
+print(ticket[2][0])
+print(ticket[2][1])
+print(ticket[3][0])
+print(ticket[3][1])
+print(ticket[2])
+print(ticket[3])
+print(len(ticket))
+meal=("vegeterian",)
+print(ticket[3]+meal)
+print(type(ticket[1]))
+summary=(
+    ticket[1][0],
+    ticket[2][0],
+    ticket[2][1]
+)
+print(summary)
