@@ -1,0 +1,10 @@
+cart=["laptop","mouse","keyboard"]
+print(type(cart))
+tuple=(tuple(cart))
+print(tuple)
+print(type(tuple))
+print(cart[0])
+print(cart[-1])
+tuple2=("USB drive",)
+gift=tuple+tuple2
+print(gift)
