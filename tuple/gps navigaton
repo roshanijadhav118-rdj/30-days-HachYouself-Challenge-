@@ -1,0 +1,8 @@
+location=(18.645,74.5764,"pune","india")
+latitude,longitude,city,country=location
+print(city)
+print(country)
+print(location[0:2])
+new_loc=location[2:]
+print(new_loc)
+print(type(latitude))
