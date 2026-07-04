@@ -1,21 +1,9 @@
-python_course=[
-    "arav",
-    "riya",
-    "karan",
-    "neha",
-    "riya"
-]
-java_course=(
-    "neha",
-    "arav",
-    "rahul",
-    "ankit",
-    "rahul"
-)
-python=set(python_course)
-java=set(java_course)
-print(python - java)
-print(java - python)
-print(python & java)
-print(python ^ java)
-print(len(python)+len(java))
+branch_a=[101,102,103,104,105]
+branch_b=[103,104,105,106,107]
+branch_1=set(branch_a)
+branch_2=set(branch_b)
+
+print(branch_1 & branch_2)
+print(branch_1 | branch_2)
+print(branch_1 - branch_2)
+print(branch_2 - branch_1)
