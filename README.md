@@ -42,3 +42,8 @@ programs-
 # Day 9 - sets
 1.company database<br>
 2.company registration
+
+# Day 10 - sets
+1.online shopping<br>
+2.social media followers<br>
+3.word analysis
