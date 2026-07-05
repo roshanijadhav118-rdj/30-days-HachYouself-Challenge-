@@ -1,0 +1,12 @@
+sentense=" python is easy and python is powerful and easy"
+list_of_sentense=sentense.split()
+set_of_sentense=set(list_of_sentense)
+unique_word=set_of_sentense
+no_of_unique_words=len(set_of_sentense)
+apla_sorted=sorted(set_of_sentense)
+tuple_result=tuple(apla_sorted)
+
+print(unique_word)
+print(no_of_unique_words)
+print(apla_sorted)
+print(tuple_result)
