@@ -1,0 +1,13 @@
+cart=(
+    "laptop",
+    "mouse",
+    "keyboard",
+    "mouse",
+    "laptop",
+    "headphones"
+)
+cartset=set(cart)
+print(cartset)
+print(sorted(cartset))
+duplictes_removed=int(len(cart))-int(len(cartset))
+print(duplictes_removed)
