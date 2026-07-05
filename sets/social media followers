@@ -1,0 +1,18 @@
+indtagram={
+    "amit",
+    "riya",
+    "karan",
+    "neha",
+    "priya"
+}
+linkedin={
+    "priya",
+    "amit",
+    "rahul",
+    "neha",
+    "ankit"
+}
+print(indtagram & linkedin)
+print(indtagram - linkedin)
+print(linkedin - indtagram)
+print(indtagram ^ linkedin)
