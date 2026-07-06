@@ -1,0 +1,25 @@
+student = {
+    "name": "Aarav",
+    "marks": {
+        "Python": 92,
+        "HTML": 84,
+        "CSS": 78,
+        "JavaScript": 89
+    }
+}
+student["marks"]["database"]=94
+student["marks"]["CSS"]=86
+del student["marks"]["HTML"]
+total_marks=student["marks"]["Python"]+student["marks"]["CSS"]+student["marks"]["JavaScript"]+student["marks"]["database"]
+average_marks=total_marks/4
+student["total_marks"]=total_marks
+student["average_marks"]=average_marks
+highest_marks=highest_marks = max(
+    student["marks"]["Python"],
+    student["marks"]["CSS"],
+    student["marks"]["JavaScript"],
+    student["marks"]["database"]
+)
+print(highest_marks) 
+print(average_marks)
+print(student)
