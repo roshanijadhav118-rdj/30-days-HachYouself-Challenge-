@@ -1,0 +1,24 @@
+user = {
+    "id": 101,
+    "username": "rozy_dev",
+    "verified": False,
+    "followers": 850,
+    "following": 210,
+    "skills": ["Python", "HTML"],
+    "address": {
+        "city": "Pune",
+        "country": "India"
+    }
+}
+
+user["username"] = "rozy_codes"
+user["verified"] = True
+user["skills"].append("CSS")
+user["address"]["city"] = "Mumbai"
+user["skills"].append("Git")
+user["total_connections"] = user["followers"] + user["following"]
+
+print("Username:", user["username"])
+print("City:", user["address"]["city"])
+print("Last Skill:", user["skills"][-1])
+print("Total Connections:", user["total_connections"])
