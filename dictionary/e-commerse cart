@@ -1,1 +1,24 @@
+cart = {
+    "customer": "Rozy",
+    "items": {
+        "Laptop": 65000,
+        "Mouse": 800,
+        "Keyboard": 1200
+    },
+    "discount": 10
+}
+cart["items"]["monitor"]=15000
+del cart["items"]["Mouse"]
 
+subtotal=cart["items"]["Laptop"]+cart["items"]["monitor"]+cart["items"]["Keyboard"]
+discount =(subtotal*cart["discount"])/100
+final_bill=subtotal-discount
+
+print("subtotal=",subtotal)
+print("discount=",discount)
+print("final bill=",final_bill)
+cart["subtotal"] = subtotal
+cart["discount_amount"] = discount
+cart["final_bill"] = final_bill
+
+print(cart)
