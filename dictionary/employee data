@@ -1,0 +1,22 @@
+employee = {
+    "id": 501,
+    "name": "Riya",
+    "department": "AI",
+    "salary": 60000,
+    "bonus_percentage": 12,
+    "projects": (
+        "SkillGap",
+        "Portfolio"
+    )
+}
+bonus=(employee["salary"]*employee["bonus_percentage"])/100
+annual_salary=bonus+employee["salary"]
+employee["bonus"]=bonus
+employee["annual_salary"]=annual_salary
+company={
+          "employee":employee ,
+          "company":"technova"
+        }
+print("employee name=",employee["name"]) 
+print("projects_2=",employee["projects"][1]) 
+print("annual_salary=",annual_salary)
