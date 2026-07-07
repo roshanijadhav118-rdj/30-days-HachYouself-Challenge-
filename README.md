@@ -47,3 +47,12 @@ programs-
 1.online shopping<br>
 2.social media followers<br>
 3.word analysis
+
+# Day 11 - dictionaries
+1.student performance<br>
+2.profile mananger<br>
+3.e-commerse cart
+
+# Day 12 - dictionaries
+1.employee data<br>
+2.api information
