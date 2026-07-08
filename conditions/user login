@@ -1,0 +1,12 @@
+username = input("Enter username: ").strip().lower()
+password = input("Enter password: ")
+
+valid_users = {"admin", "rohan", "alice"}
+correct_password = "Python@123"
+
+if username not in valid_users:
+    print("User Not Found")
+elif password != correct_password:
+    print("Incorrect Password")
+else:
+    print("Login Successful")
