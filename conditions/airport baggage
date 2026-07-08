@@ -1,0 +1,29 @@
+#airport baggage check 
+
+age = int(input("Enter age: "))
+bag_weight = int(input("Enter bag weight (kg): "))
+ticket_class = input("Enter ticket class: ").lower()
+
+if ticket_class == "economy":
+    if bag_weight > 15:
+        print("Extra baggage fee required")
+    else:
+        print("Baggage Accepted")
+
+elif ticket_class == "business":
+    if bag_weight > 25:
+        print("Extra baggage fee required")
+    else:
+        print("Baggage Accepted")
+
+elif ticket_class == "first":
+    if bag_weight > 35:
+        print("Extra baggage fee required")
+    else:
+        print("Baggage Accepted")
+
+else:
+    print("Invalid Ticket Class")
+
+if age <= 5:
+    print("Child passenger - Priority assistance")
