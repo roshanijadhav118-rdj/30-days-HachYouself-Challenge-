@@ -1,0 +1,14 @@
+#Hospital emergency Priority 
+
+age = int(input("Age: "))
+temperature = float(input("Temperature: "))
+oxygen = int(input("Oxygen Level: "))
+symptom=input("symptoms: ")
+symptoms = {"cough", "breathing difficulty","fever"}
+
+if oxygen < 90 or symptom == "breathing difficulty":
+    print("Emergency")
+elif temperature > 102 and age >= 60:
+    print("High Priority")
+else:
+    print("Normal")
