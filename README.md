@@ -56,3 +56,8 @@ programs-
 # Day 12 - dictionaries
 1.employee data<br>
 2.api information
+
+# Day 13 - coditions
+1.OTT subscription
+2.admission eligibility
+3.airport baggage
