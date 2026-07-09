@@ -1,0 +1,31 @@
+#OTT subscription 
+
+plan = input("Enter plan (Basic/Standard/Premium): ").lower()
+device = input("Enter device (Mobile/Laptop/TV): ").lower()
+country = input("Enter country: ").lower()
+
+countries = {"india", "usa", "uk"}
+
+if country not in countries:
+    print("Service Not Available")
+
+elif plan == "basic":
+    if device == "mobile":
+        print("Streaming Allowed")
+    else:
+        print("Basic plan supports only Mobile")
+
+elif plan == "standard":
+    if device in {"mobile", "laptop"}:
+        print("Streaming Allowed")
+    else:
+        print("Standard plan supports only Mobile and Laptop")
+
+elif plan == "premium":
+    if device in {"mobile", "laptop", "tv"}:
+        print("Streaming Allowed")
+    else:
+        print("Invalid Device")
+
+else:
+    print("Invalid Plan")
