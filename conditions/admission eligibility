@@ -1,0 +1,40 @@
+# indentation logic / "nested else"
+# College Admission Eligibility
+age = int(input("Enter your age: "))
+category = input("Enter your category (General/OBC/SC): ").lower()
+
+if not (17 <= age <= 25):
+    print("Not Eligible: Invalid age")
+
+else:
+    valid_categories = {"general", "obc", "sc"}
+
+    if category not in valid_categories:
+        print("Not Eligible: Invalid category")
+
+    else:
+        mark1 = int(input("Physics: "))
+        mark2 = int(input("Chemistry: "))
+        mark3 = int(input("Mathematics: "))
+
+        total = mark1 + mark2 + mark3
+
+        print("total marks =", total)
+
+        if category == "general":
+            if total >= 240:
+                print("Eligible")
+            else:
+                print("Not Eligible: Insufficient marks")
+
+        elif category == "obc":
+            if total >= 220:
+                print("Eligible")
+            else:
+                print("Not Eligible: Insufficient marks")
+
+        elif category == "sc":
+            if total >= 200:
+                print("Eligible")
+            else:
+                print("Not Eligible: Insufficient marks")
