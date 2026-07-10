@@ -1,0 +1,10 @@
+# warehouse inventory 
+
+products = ["Laptop", "Mouse", "Keyboard"]
+
+for product in products:
+    if product == "Mouse":
+        print("Product Found")
+        break
+else:
+    print("Product Not Found")
