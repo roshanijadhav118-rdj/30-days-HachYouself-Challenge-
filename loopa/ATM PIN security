@@ -1,0 +1,18 @@
+#ATM PIN attempts 
+
+user_pin = 442007
+counter = 1
+
+while counter <= 3:
+    pin = int(input("Enter PIN: "))
+
+    if pin == user_pin:
+        print("Login Successful")
+        break
+    else:
+        print("Wrong PIN")
+        counter += 1
+
+else:
+    print("You tried 3 wrong PINs.")
+    print("Your card is blocked.")
