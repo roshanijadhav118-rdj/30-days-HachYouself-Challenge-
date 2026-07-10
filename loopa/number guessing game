@@ -1,0 +1,19 @@
+#num guessing game 
+    
+guess_no=27
+counter=1
+max_attempts=10
+while counter < max_attempts:
+    num=int(input("enter no ;"))
+    counter+=1 
+    if num<guess_no:
+        print("too small")
+    elif num>guess_no:
+        print("too large")    
+    else:
+        print(f"🎉 Correct! You guessed the number in {counter} attempt(s).")
+        break
+              
+else:
+    print("❌ Game Over! You have used all 10 attempts.")
+    print(f"The correct number was {guess_no}.")
