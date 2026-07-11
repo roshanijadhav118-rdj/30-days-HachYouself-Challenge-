@@ -71,3 +71,6 @@ programs-
 2.password length checking<br>
 3.ware house inventory
 
+# Day 16 - loops
+1.password strength checking<br>
+2.students result
