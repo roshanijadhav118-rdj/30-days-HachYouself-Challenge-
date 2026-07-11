@@ -1,0 +1,18 @@
+failed=0
+passed=0
+counter=0
+marks =[34,56,67,89,-1]
+highest=max(marks)
+lowest=min(marks)
+print(f"highest marks={highest}")
+print(f"lowest marks={lowest}")
+for i in marks:
+      
+      if i<40:
+            failed=failed+1
+      else:
+            passed=passed+1 
+      counter+=1    
+        
+print (f"passed students={passed}")        
+print(f"failed student={failed}")
