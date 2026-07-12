@@ -1,0 +1,20 @@
+#mini library management 
+
+def analyze_book():
+    books = ["basic python", "beginner python", "advance python", "java"]
+    print(len(books))
+    
+    unique_words=set() 
+    for book in books:
+         words=book.split()
+         unique_words.update(words)
+    print(len(unique_words))
+    
+    print(max(books,key=len))
+    
+    found=False
+    for book in books:
+        if "python" in book:
+            print(book) 
+            found=True
+analyze_book()
