@@ -74,3 +74,8 @@ programs-
 # Day 16 - loops
 1.password strength checking<br>
 2.students result
+
+# Day 1 - Functions 
+1.Mini Library management<br> 
+2.word Frequency<br>
+3.String Stastics 
