@@ -1,0 +1,19 @@
+#word frequency 
+
+def word_freq():
+    words=["python", "python","html","python","html","java"]
+    python=0
+    html=0
+    java=0
+    for word in words:
+        if word=="python":
+            python+=1
+        elif word=="html":
+             html+=1
+        else:
+             java+=1
+    print("python=",python)    
+    print("html=",html) 
+    print("java=",java)     
+
+word_freq()
