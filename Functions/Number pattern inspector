@@ -1,0 +1,25 @@
+# number pattern inspector 
+
+def inspect_number():
+    numbers=[10,20,35,40,55]
+    sum=0
+    for num in numbers:
+        sum=num+sum
+    print("total sum=",sum)
+        
+    total_numbers=len(numbers)
+    print("average=",sum/total_numbers) 
+    
+    print("largest=",max(numbers))
+    print("smallest=",min(numbers))  
+    even=list()
+    odd=list()
+    for num in numbers:
+        if num%2==0:
+            even.append(num)
+        else:
+            odd.append(num)  
+    print("even=",even)  
+    print("odd=",odd)        
+   
+inspect_number()
