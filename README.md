@@ -79,3 +79,7 @@ programs-
 1.Mini Library management<br> 
 2.word Frequency<br>
 3.String Stastics 
+
+# Day 18 - Functions
+1.String statics<br>
+2.number pattern inspector 
