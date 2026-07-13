@@ -1,0 +1,20 @@
+#string compare 
+
+def compare_sentence():
+    s1 = "python is best and fast"
+    s2 = "python is powerful and easy"
+
+    s01 = set(s1.split())
+    s02 = set(s2.split())
+
+    print("Common Words:", s01 & s02)
+    print("Only in Sentence 1:", s01 - s02)
+    print("Only in Sentence 2:", s02 - s01)
+    print("Common Word Count:", len(s01 & s02))
+
+    if s01 == s02:
+        print("Same Word Set: Yes")
+    else:
+        print("Same Word Set: No")
+
+compare_sentence()
