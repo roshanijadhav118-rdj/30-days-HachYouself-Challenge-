@@ -1,0 +1,21 @@
+#student name 
+try:
+    students = {
+        "Rahul": 45,
+        "Amit": 56,
+        "Neha": 78,
+        "Priya": 89
+    }
+
+    name = input("Student name: ").title()
+
+    if name not in students:
+        raise KeyError(name)
+
+    print(name, students[name])
+
+except KeyError:
+    print("Student not found.")
+
+finally:
+    print("Complete ✅")
