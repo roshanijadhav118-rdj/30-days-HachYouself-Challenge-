@@ -1,0 +1,21 @@
+#students marks exception 
+
+try:
+    marks = float(input("Enter marks: "))
+
+    if marks < 0 or marks > 100:
+        raise ValueError("Marks should be between 0 and 100")
+
+except ValueError as e:
+    print(e)
+
+else:
+    if marks >= 35:
+        print("Pass")
+    else:
+        print("Fail")
+
+    print(f"Percentage = {marks}%")
+
+finally:
+    print("Complete ✅")
