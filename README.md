@@ -83,3 +83,8 @@ programs-
 # Day 18 - Functions
 1.String statics<br>
 2.number pattern inspector 
+
+# Day 19 - Exception Handling 
+1.Students marks <br>
+2.students name analysis<br>
+3.Calculator
