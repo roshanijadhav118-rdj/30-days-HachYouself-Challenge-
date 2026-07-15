@@ -1,0 +1,16 @@
+# login exception 
+try:
+    username = input("Username = ")
+    password = int(input("Password = "))
+
+    if username != "admin" or password != 1234:
+        raise ValueError("Invalid username or password.")
+
+except ValueError as e:
+    print(e)
+
+else:
+    print("Login Successful")
+
+finally:
+    print("Complete ✅")
