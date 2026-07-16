@@ -1,0 +1,15 @@
+counter=0
+
+while counter<=10:
+
+name=input("Enter Name=")
+
+with open("attendence.txt","a") as file:
+
+file.write(name+"\n")
+
+print("updated list")
+
+with open("attendence.txt","r") as file:
+
+print(file.read())
