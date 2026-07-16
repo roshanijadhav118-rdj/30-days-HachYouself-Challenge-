@@ -1,0 +1,8 @@
+with open("expenses.txt", "r") as file:
+    total = 0
+
+    for line in file:
+        expense = line.split()
+        total = total + int(expense[1])
+
+print("Total Expense =", total)
