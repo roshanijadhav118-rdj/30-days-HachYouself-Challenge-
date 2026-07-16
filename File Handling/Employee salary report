@@ -1,0 +1,8 @@
+with open("employees.txt", "r") as file:
+    for line in file:
+        employee = line.strip().split(",")
+
+        if int(employee[1]) > 30000:
+            print("Name:", employee[0])
+            print("Salary:", employee[1])
+            print()
