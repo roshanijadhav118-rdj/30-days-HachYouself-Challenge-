@@ -112,5 +112,5 @@ programs-
 1. Student Result
 
 # Day 27 - Built-in functions 
-1. weather information 
+1. weather condition
 
