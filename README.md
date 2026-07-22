@@ -108,3 +108,9 @@ programs-
 # Day 24 - Module
 1.shopping cart
 
+# Day 25 - Module
+1. Student Result
+
+# Day 27 - Built-in functions 
+1. weather information 
+
