@@ -114,3 +114,6 @@ programs-
 # Day 27 - Built-in functions 
 1. weather condition
 
+# Day 27 - Built-in functions 
+1.Movie's Ratings<br>
+2.Highway Toll report
